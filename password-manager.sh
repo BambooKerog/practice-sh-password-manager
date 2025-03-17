@@ -18,4 +18,5 @@ read -sp "パスワードを入力してください: " password
 echo "$service_name:$user_name:$password" >> "$output_file"
 
 # 入力が完了したら返す
+echo
 echo "Thank you!"
